@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Institucion Educativa Jose Agustin Blanco Barros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Institucion Educativa Jose Agustin Blanco Barros</h1>
+        <p>Aprende, crece y construye tu futuro</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#programas">Programas</a>
+        <a href="#actividades">Actividades</a>
+        <a href="#contacto">Contacto</a>
+        <a href="#admisiones">Admisiones</a>
+    </nav>
+
+    <section id="inicio" class="portada">
+    <h2>Construye tu futuro con nosotros!</h2>
+     <p>
+        Institucion Educativa Jose Agustin Blanco Barros.
+        Aprende, descubre tus talentos y preparate para el futuro.
+    </p>
+
+    <a href="#programas" class="boton">
+        Conoce nuestros programas 
+    </a>
+</section>
+
+    </section>
+
+    <section id="nosotros">
+        <h2>Conoce nuestra institucion</h2>
+        <p>
+            La Institucion Educativa Jose Agustin Blanco Barros es un espacio
+            para aprender, compartir conocimientos y desarrollar habilidades.
+            Nuestro proposito es brindar una educacion de calidad, fomentar
+            los valores y preparar a los estudiantes para nuevos retos.
+        </p>
+        <button onclick="mostrarInfo()">Conoce mas</button>
+        <p id="informacion"></p>
+    </section>
+
+    <section id="programas">
+        <h2>Nuestra oferta academica</h2>
+        <p>Conoce nuestras areas de aprendizaje y descubre nuevas oportunidades.</p>
+        <p>
+        Al llegar a grado decimo, nuestros estudiantes tienen
+        la oportunidad de elegir el programa que mas
+        se adapte a sus intereses, habilidades y metas.
+       </p>
+        <p>
+        La institucion ofrece cinco opciones de formacion:
+        Salud, Programacion, Arte, Quimica Industrial y
+        Comunicacion.
+       </p>
+        <p>
+        Cada programa busca fortalecer los conocimientos
+        y las capacidades de los estudiantes, brindandoles
+        herramientas para prepararse para su futuro academico
+        y laboral.
+    </p>
+        <div class="presentacion">
+        <div class="texto-presentacion">
+        <h2>Descubre todo lo que puedes lograr</h2>
+        <p>En nuestra institucion puedes aprender, compartir experiencias y desarrollar habilidades para construir tu futuro.</p>
+
+    </div>
+
+    <div class="galeria">
+        <img src="imagene3.jpeg" alt="Instalaciones del colegio">
+        <img src="img 4.jpeg" alt="Estudiantes de la institucion">
+    </div>
+</div>
+
+        
+    </div>
+
+
+        <div class="contenedor-programas">
+
+            <div class="programa azul">
+                <h3>Comunicacion</h3>
+                <p>Aprende hoy, para liderar despuess.</p>
+                <button onclick="verPrograma('Comunicacion')">Ver informacion</button>
+            </div>
+
+            <div class="programa morado">
+                <h3>Programacion</h3>
+                <p>Descubre el mundo digital y desarrolla tus habilidades tecnologicas.</p>
+                <button onclick="verPrograma('Programacion')">Ver informacion</button>
+            </div>
+
+            <div class="programa verde">
+                <h3> Arte</h3>
+                <p>Participa en experiencias culturales y expresa tus talentos.</p>
+                <button onclick="verPrograma('Arte')">Ver informacion</button>
+            </div>
+
+            <div class="programa verde">
+                <h3> Quimica Industrial</h3>
+                <p>La ciencia que impulsa el progreso industrial.</p>
+                <button onclick="verPrograma('Quimica Industrial')">Ver informacion</button>
+            </div>
+
+            <div class="programa azul">
+                <h3>Salud</h3>
+                <p>Estudiar hoy para sanar despues</p>
+                <button onclick="verPrograma('Salud')">Ver informacion</button>
+            </div>
+            <div id="respuesta-pregunta"></div>
+            <div id="info-programa"></div>
+     
+        </div>
+
+        <div id="detalle-programa"></div>
+    </section>
+
+    <section id="actividades">
+        <h2>Actividades escolares</h2>
+        <p>En nuestra institucion tambien aprendemos participando.</p>
+
+        <div class="contenedor-programas">
+            <div class="actividad">
+               <img src="imag9 (2).jpeg" alt="Actividades academicas">
+               <img src="imag9.jpeg" alt="">
+                <h3>Actividades academicas</h3>
+                <p>Exposiciones, proyectos y trabajos en equipo.</p>
+            </div>
+
+            <div class="actividad">
+                <img src="ima5.jpeg" alt="Actividades Culturales">
+                <img src="WhatsApp Image 2026-11-02 at 12.28.10 PM.jpeg" alt="">
+                <h3>Actividades culturales</h3>
+                <p>Celebraciones, eventos y expresiones artisticas.</p>
+            </div>
+
+            <div class="actividad">
+                <img src="ima6.jpeg" alt="Actividades deportivas">
+                <img src="img8.jpeg" alt="">
+                <h3>Actividades deportivas</h3>
+                <p>Deporte, recreacion y companerismo.</p>
+            </div>
+        </div>
+    </section>
+    
+<section id="admisiones">
+    <h2>Admisiones e inscripciones</h2>
+
+    <p>
+        Quieres formar parte de nuestra institucion?
+        Te contamos como puedes ingresar y comenzar
+        a construir tu futuro con nosotros.
+    </p>
+
+    <div class="contenedor-programas">
+
+        <div class="actividad">
+            <h3>1. Consulta los cupos</h3>
+            <p>
+                Acercate a la institucion y pregunta
+                por la disponibilidad de cupos para
+                el grado que deseas cursar.
+            </p>
+        </div>
+
+        <div class="actividad">
+            <h3>2. Prepara los documentos</h3>
+            <p>
+                Ten a la mano el documento de identidad
+                del estudiante, el documento del acudiente
+                y los certificados de estudio anteriores.
+            </p>
+        </div>
+
+        <div class="actividad">
+            <h3>3. Formaliza tu matricula</h3>
+            <p>
+                Entrega los documentos solicitados y
+                sigue las indicaciones de la institucion
+                para completar el proceso de matricula.
+            </p>
+        </div>
+
+    </div>
+
+    <p>
+        <strong>Importante:</strong> La matricula en los
+        colegios publicos es gratuita. Las fechas y los
+        requisitos especificos deben confirmarse
+        directamente con la institucion.
+    </p>
+</section>
+
+
+    
+<script src="script.js"></script>
+</body>
+</html>
